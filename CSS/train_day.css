@@ -1,0 +1,164 @@
+html {
+  overflow-x: hidden;
+}
+
+div.dayNumber {
+  font-family: 'Raleway',
+    sans-serif;
+  font-weight: bold;
+  text-shadow: 2px 6px 8px rgb(159, 159, 159);
+  color: rgb(84, 87, 89);
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+div.dayNumber::before {
+  content: "Day";
+  background-color: rgba(176, 239, 235, 70%);
+  padding: 5px 8px;
+  text-shadow: none;
+  position: relative;
+  bottom: 5px;
+}
+
+@media (min-width: 0px)  {
+  div.dayNumber {
+    font-size: 22px;
+  }
+}
+
+
+@media (min-width: 768px)  {
+  div.dayNumber {
+    font-size: 26px;
+  }
+}
+
+
+@media (min-width: 992px) {
+  div.dayNumber {
+    font-size: 32px;
+  }
+}
+
+div.finish-button a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(119, 120, 121);
+  font-family: 'Merriweather',
+  serif;
+  border: 3px solid rgb(119, 120, 121);
+  width: 100px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+div.finish-button a:visited {
+  color: rgb(119, 120, 121);
+}
+
+video {
+  border-radius: 12px;
+  width: 100%;
+}
+
+video:focus {
+  outline: none;
+}
+
+div.exercise {
+  padding: 40px 15px;
+}
+
+div.video {
+  height: auto;
+  width: 50%;
+}
+
+div.exercise-decription {
+  font-family: "Motserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  background-color: white;
+  border-radius: 15px;
+}
+
+div.exercise-decription p {
+  display: flex;
+  color: rgb(80, 80, 80);
+  font-family: AngBird;
+  text-shadow: 2px 6px 8px rgb(200, 200, 200);
+  }
+
+div.exercise-decription p:nth-child(1) {
+  background-color: rgba(176, 239, 235, 70%);
+  padding: 5px;
+  position: relative;
+  right: 5px;
+}
+
+div.exercise-decription p:nth-child(3) {
+  background-color: rgba(176, 239, 235, 70%);
+  padding: 5px;
+  position: relative;
+  right: 5px;
+}
+
+div.exercise {
+  border-bottom: 3px dotted rgba(149, 149, 149, 0.7);
+}
+
+
+@media (min-width: 0px) {
+  div.exercise-decription {
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+   div.exercise-decription {
+     margin-top: 0px;
+   }
+}
+
+@media (min-width: 1200px) {
+  video {
+   position: relative;
+   left: 130px;
+  }
+
+  div.exercise-decription {
+    position: relative;
+    left: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(119, 120, 121);
+    border-radius: 0px;
+  }
+}
+
+div.finish-button a {
+  font-size: 140%;
+}
+
+div.margin-need {
+  margin-top: 50px;
+}
+
+@font-face {
+  font-family: 'Novamono';
+  src: url(../fonts/novamono.ttf);
+}
+
+@font-face {
+  font-family: 'EA';
+  src: url(../fonts/EASPORTS15.ttf);
+}
+
+@font-face {
+  font-family: 'AngBird';
+  src: url(../fonts/angrybirds-regular.ttf);
+}
