@@ -148,6 +148,21 @@ div.margin-need {
   margin-top: 50px;
 }
 
+div.exercise-decription p input {
+  width: 35px;
+  border: 2px solid rgba(204, 235, 233, 0.7);
+  border-radius: 5px;
+}
+
+soNeed {
+  border: 1px solid rgba(176, 239, 235, 70%);
+  border-radius: 5px;
+  margin: auto 5px;
+  position: relative;
+  bottom: 3px;
+  box-shadow: inset 8px -9px 20px 20px rgb(211, 215, 219);
+}
+
 @font-face {
   font-family: 'Novamono';
   src: url(../fonts/novamono.ttf);
